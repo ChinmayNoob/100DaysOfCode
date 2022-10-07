@@ -99,3 +99,7 @@ int main()
    cout<<<<endl;
     return 0;
 }
+
+
+// more about arrrays
+// agar array mai[] bracket ke andar likhi huvi value ke barabar ya ussizyada value daloge toh segmenttation error ata hai 
