@@ -64,4 +64,20 @@ int main() {
   cout << a << b << endl;
 }
 
+// pointers
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int x=4;
+    int *p_x=&x;
+    cout<<"addr x;"<<&x<<endl;
+    cout<<"addr p_x;"<<p_x<<endl;
+    cout<<"addr *p_x;"<<*p_x<<endl;
+    cout<<"*p_x+1;"<<p_x+1<<endl;
+    int **p_p_x=&p_x;
+    cout<<"addr p_x"<<&p_x<<endl;
+    cout<<"val p_p_x:"<<p_p_x<<endl;
+    cout<<"val p_p_x:"<<*p_p_x<<endl;
+}
 
