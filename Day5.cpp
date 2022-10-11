@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main()
 {
@@ -57,7 +57,7 @@ int main()
         cout<<sh[i]<<endl;
     }
     return 0;
-}
+}/*
 
 
 // exponent function
@@ -102,4 +102,47 @@ int main()
 
 
 // more about arrrays
-// agar array mai[] bracket ke andar likhi huvi value ke barabar ya ussizyada value daloge toh segmenttation error ata hai 
+// agar array mai[] bracket ke an
+dar likhi huvi value ke barabar ya ussizyada value daloge toh segmenttation error ata hai
+
+*/#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	#ifndef a
+	freopen("input1.txt","r",stdin);
+	freopen("output1.txt","w",stdout);
+	#endif
+     int n;
+     cin>>n;
+     if(n==1){
+        cout<<"one";
+     }
+     else if(n==2){
+        cout<<"two";
+     }else if(n==3){
+        cout<<"three";
+     }else if(n==4){
+        cout<<"four";
+     }else if(n==5){
+        cout<<"five";
+     }else if(n==6){
+        cout<<"six";
+     }else if(n==7){
+        cout<<"seven";
+     }else if(n==8){
+        cout<<"eight";
+     }else if(n==9){
+        cout<<"nine";
+     }
+     else if(n>9 && n%2==0){
+        cout<<"number is even";
+     }
+     else{
+        cout<<"number is odd";
+     }
+
+
+
+} 
