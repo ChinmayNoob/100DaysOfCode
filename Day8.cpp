@@ -36,7 +36,7 @@
 // eight
 // nine
 // even
-// odd
+// oddd
 
 
 #include<bits/stdc++.h>
